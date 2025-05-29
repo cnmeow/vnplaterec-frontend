@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: vnplaterec-frontend
-        image: cnmeow/vnplaterec-frontend:latest
+        image: cnmeow/vnplaterec_frontend:latest
         ports:
         - containerPort: 2106
