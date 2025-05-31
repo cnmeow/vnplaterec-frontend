@@ -35,7 +35,8 @@ cd vnplaterec-backend
   ```bash
   # Create virtual environment (optional)
   python -m venv venv
-  source venv/bin/activate 
+  source venv/bin/activate # (macOS)
+  venv\Scripts\activate.bat # (Windows)
   
   # Install dependencies
   pip install -r requirements.txt
