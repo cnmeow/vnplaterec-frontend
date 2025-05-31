@@ -42,7 +42,7 @@ cd vnplaterec-backend
   pip install -r requirements.txt
   
   # Run the Flask server
-  python app.py
+  gunicorn main:app --bind 0.0.0.0:8081
   ```
 
 - Option B: Run with Docker
